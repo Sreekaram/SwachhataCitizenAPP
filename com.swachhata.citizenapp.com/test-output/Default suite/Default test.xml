@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="STAG-PC" name="com.swachhata.citizenapp.RegistrationTest.com.SwachhataCitizenAPPTest" tests="1" failures="0" timestamp="18 Jan 2017 09:05:23 GMT" time="53.138" errors="0">
+  <testcase name="citizenAPPLoginTest" time="41.125" classname="com.swachhata.citizenapp.RegistrationTest.com.SwachhataCitizenAPPTest"/>
+</testsuite>

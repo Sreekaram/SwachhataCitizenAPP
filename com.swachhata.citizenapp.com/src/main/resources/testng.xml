@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Regression Suite" parallel="methods" thread-count="3">
+    <classes>
+      <class name="com.swachhata.citizenapp.E2ETest.com.SwachhataCitizenAPPTest">
+   <methods>
+   <include name="citizenAPPLoginTest"></include>
+   <include name="LogoutTest"></include>
+  
+<!-- <include name="citizenAPPLoginTest"></include>
+<include name="PostaComplaintTest"></include>
+<include name="citizenAPPLoginTest"></include>
+<include name="complaintEditTest"></include>
+<include name="complaintDeleteTest"></include>
+<include name="DashboardTest"></include>
+<include name="UpdateProfileTest"></include>
+<include name="ComplaintPageTest"></include> 
+<include name="PostaComplaintUsingGalleryTest"></include>
+<include name="LogoutTest"></include> -->
+   </methods>
+</class>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
